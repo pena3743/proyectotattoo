@@ -22,17 +22,15 @@ background-image: url(../img/wallpaperbetter.com_1920x1080.jpg);
 
 .clase1{
     display: none;
+    width: 100%;
+   
     
+   
     
 }    
     
     
-.img{
 
-width: 200px;
-
-
-}    
 
 
 
@@ -44,7 +42,7 @@ width: 200px;
     font-size: 1.5rem;
     gap: 100px;
     margin-right: 100px;
-    
+
 
 }
 
@@ -52,7 +50,7 @@ width: 200px;
 .media {
     display: flex;
     align-items: center;
-    
+
 }
 
 .logo {
@@ -90,24 +88,6 @@ a:hover {
 }
 
 
-.titulorich {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-top: 200px;
-    font-size: 3rem;
-    color: white;
-
-
-}
-
-.aw2 {
-
-    color: greenyellow;
-
-}
-
-
 
 
 
@@ -125,6 +105,23 @@ display: none;
 
 display: block;
 
+
+}
+
+
+.imgg{
+
+width: 150px;
+border:1px solid black;
+background-color: black;
+border-radius: 50%;
+
+}
+
+
+.box__links{
+
+display: inline;
 
 }
 
@@ -172,7 +169,15 @@ flex-direction: column;
     
     }
     
-    
+    .imgg{
+
+        width: 150px;
+        border:1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        
+        }
+        
     
     
     
