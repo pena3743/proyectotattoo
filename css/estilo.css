@@ -1,0 +1,179 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Quicksand:wght@300&display=swap');
+
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+
+background-image: url(../img/wallpaperbetter.com_1920x1080.jpg);
+
+}
+
+
+.clase1{
+    display: none;
+    
+    
+}    
+    
+    
+.img{
+
+width: 200px;
+
+
+}    
+
+
+
+
+.box__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    gap: 100px;
+    margin-right: 100px;
+    
+
+}
+
+
+.media {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+
+    width: 400px;
+
+
+}
+
+
+.box__links {
+
+    display: flex;
+
+    gap: 40px;
+    list-style-type: none;
+    color: white;
+
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+
+    transition: 3s;
+    color: chartreuse;
+
+}
+
+
+.titulorich {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3rem;
+    color: white;
+
+
+}
+
+.aw2 {
+
+    color: greenyellow;
+
+}
+
+
+
+
+
+
+
+@media (max-width:700px) {
+    
+.box__header{
+display: none;
+
+
+}
+
+.clase1{
+
+display: block;
+
+
+}
+
+.titulorich{
+
+ text-align: center;
+ width: 200px;   
+
+
+
+}
+
+.section2{
+max-width: 100%;
+width: 500px;
+margin: 0 auto;
+
+
+}
+
+
+
+.box__section{
+display: flex;
+
+flex-direction: column;
+
+
+}
+
+}
+
+@media (max-width:380px) {
+    
+    .box__header{
+    display: none;
+    
+    
+    }
+    
+    .clase1{
+    
+    display: block;
+    
+    
+    }
+    
+    
+    
+    
+    
+    }
