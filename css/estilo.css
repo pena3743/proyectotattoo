@@ -112,8 +112,7 @@ display: block;
 .imgg{
 
 width: 150px;
-border:1px solid black;
-background-color: black;
+border: 1px solid white;
 border-radius: 50%;
 
 }
